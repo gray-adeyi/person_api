@@ -3,7 +3,8 @@
 A simple REST API capable of CRUD operations on a `Person` resource
 
 ## API Documentation
-The documentation for this api can be found here.
+The documentation for this api can be found [here](https://person-api-u6d0.onrender.com/docs).
+Alternatively, you can import this [Postman Collection](./Person%20API.postman_collection.json) into postman
 
 ## Testing the API endpoints
 A `api_test_script.py` script is provided in the root directory of this project.
