@@ -1,7 +1,7 @@
 import httpx
 from rich import print
 
-BASE_URL = "http://127.0.0.1:9001/api"
+BASE_URL = "https://person-api-u6d0.onrender.com/api"
 NAMES = ["Guido van Rossum", "Gbenga Adeyi", "Graydon Hoare"]
 
 created_people = []
