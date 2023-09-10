@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "person-api"
+version = "0.1.0"
+description = ""
+authors = ["Gbenga Adeyi <adeyigbenga005@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+sqlmodel = "^0.0.8"
+asyncpg = "^0.28.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.0"
+ruff = "^0.0.287"
+python-dotenv = "^1.0.0"
+httpx = "^0.24.1"
+rich = "^13.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
