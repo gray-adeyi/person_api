@@ -38,6 +38,9 @@ async def get_people(name: str | None = None, db: AsyncSession = Depends(get_ses
         name as `John Doe`
 
     Note:
+        The query parameter is not required for this endpoint(leave empty).
+        The server might return a 500 Internal server error on a first attempt,
+        That's because the postgres server is down. please retry the request.
         This current version does not support pagination.
     """
     # TODO: Pagination
